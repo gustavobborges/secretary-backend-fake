@@ -1,0 +1,13 @@
+{
+  "name": "backendFake",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --port 3004 --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
